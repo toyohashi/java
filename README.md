@@ -24,7 +24,7 @@ Important method:
 1. ```public Socket accept()```:returns the socket and establish a connection between server and client.
 2. ```public synchronized void close()```:closes the server socket.
 
-## 2. Online Quiz Application
+## 2. Example: Online Quiz Game
 ### 2.1. Ideal:
 Create an online quiz game with 10 random questions about the outstanding events in 2019. In that game, users enter information (ip, port, name) in the Log in window, if the information is correct, server will send the question to the client. On the client side, the method has been programmed to receive questionnaires and scoring for this game. Client side will be switch to playGame menu and the game will be start. <br><br>
 When the user completes question 10, the client will display the message "You have achieved ... points. Quiz has been completed." After this point is sent to the server, the server side will save the name + points of each player.
