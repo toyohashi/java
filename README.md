@@ -38,7 +38,7 @@ When the user completes question 10, the client will display the message "You ha
 
 #### Client side:
 - ```class quizQuestion```: When you receive question list object from Server, this class is used to format received data to question list form: question-answer.
-- ```class playBackgroundMusic```: Play background music when user playing game (MutiThread).
+- ```class playBackgroundMusic```: Play background music when user playing game (MultipleThread).
 - ```class playGame```: Create```Online Quiz Home``` window that displays question and get answer. Send final score to Server and exit game when it is completed.
 - ```class ClientA```: Create ```Log in``` window, request connect to Server, hold this connection.
 - ```sub class ConfirmButton```: get information from user's input, require connect to Server.
