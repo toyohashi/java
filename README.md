@@ -11,5 +11,17 @@ Here, we are going to make one-way client and server communication. In this appl
 
 ![Image](https://static.javatpoint.com/core/images/socket-programming.png)
 
+## 1.2. Socket Class: 
+A socket is simply an endpoint for communications between the machines. The Socket class can be used to create a socket.<br>
+Important method:
+1. ```public InputStream getInputStream()```: returns the InputStream attached with this socket.
+2. ```public OutputStream getOutputStream()```: returns the OutputStream attached with this socket.
+3. ```public synchronized void close()```: closes this socket
+
+## 1.3. ServerSocket Class: Create Server
+The ServerSocket class can be used to create a server socket. This object is used to establish communication with the clients.<br>
+Important method:
+1. ```public Socket accept()```:returns the socket and establish a connection between server and client.
+2. ```public synchronized void close()```:closes the server socket.
 
 ## 2. Online Quiz Application
