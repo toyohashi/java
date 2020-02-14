@@ -43,3 +43,16 @@ When the user completes question 10, the client will display the message "You ha
 - ```class ClientA```: Create ```Log in``` window, request connect to Server, hold this connection.
 - ```sub class ConfirmButton```: get information from user's input, require connect to Server.
 
+### 2.3. Run this game:
+#### Server side:
+```
+javac quizQuestion.java
+javac Server.java
+java Server
+```
+#### Client side:
+```
+javac quizQuestion.java
+javac playGame.java
+javac ClientA.java
+java ClientA
