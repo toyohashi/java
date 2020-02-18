@@ -26,8 +26,8 @@ Important method:
 
 ## 2. Example: Online Quiz Game
 ### 2.1. Ideal:
-Create an online quiz game with 10 random questions about the outstanding events in 2019. In that game, users enter information (ip, port, name) in the Log in window, if the information is correct, server will send the question to the client. On the client side, the method has been programmed to receive questionnaires and scoring for this game. Client side will be switch to playGame menu and the game will be start. <br><br>
-When the user completes question 10, the client will display the message "You have achieved ... points. Quiz has been completed." After this point is sent to the server, the server side will save the name + points of each player.
+Đây là trò chơi quiz về những sự kiện nổi bật trong năm 2019. Người chơi sẽ phải trả lời 10 câu hỏi, mỗi câu có 4 lựa chọn. Mỗi câu trả lời đúng sẽ được tính 1 điểm, trả lời sai không được tính điểm.
+Trò chơi sẽ được vận hành như sau: người chơi nhập thông tin địa chỉ ip, port của Server và tên vào cửa sổ Login, sau đó nhấn vào button Đăng nhập.   Thông tin nhập vào sẽ được gửi đến Server, nếu thông tin này đúng, Server sẽ gửi bộ câu hỏi gồm 30 câu cho Client. Client nhận bộ câu hỏi, sau đó chuyển đến cửa sổ chính của trò chơi. Trò chơi chính thức bắt đầu. Nhạc nền sẽ được mở trong suốt quá trình chơi game bằng một Thread riêng biệt. Người chơi sẽ trả lời lần lượt từng câu hỏi cho đến câu số 10. Sau câu số 10, phần mềm sẽ thông báo điểm số đến người chơi, khi người chơi nhấn OK xác nhận điểm số, trò chơi kết thúc.
 
 ### 2.2. Classes for this game:
 #### Server side:
